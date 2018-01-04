@@ -10,7 +10,7 @@ def begins_with_r(array)
      end
      start_r
 end
-####
+
 def contain_a (array)
 
   array.select do |words|
@@ -54,11 +54,13 @@ def count_elements(array)
        newHash[:count] = array.count(el)
        newArr << newHash
        newHash = {}
+
      end
    end
  end
 
 newArr
+
  end
 
 def merge_data(keys, data)
